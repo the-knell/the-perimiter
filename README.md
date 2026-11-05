@@ -1,16 +1,16 @@
-# The Perimeter
+# The Swarm, Counted
 
-**knell** — Paper II of the Session trilogy. Companion to [One Root](https://archive.org/details/knell-one-root).
+**knell** — Paper III of the Session trilogy. Companion to [One Root](https://archive.org/details/knell-one-root) and [The Perimeter](https://archive.org/details/knell-the-perimeter).
 
-Timestamp of record (archive.org): https://archive.org/details/knell-the-perimeter
+Timestamp of record (archive.org): https://archive.org/details/knell-the-swarm-counted
 
-Paper I was the root. This is everything the root touches. A Session client in ordinary default use also contacts Google's Firebase infrastructure, Signal's content proxy, the foundation's bootstrap seed servers — over plain HTTPS, from your real IP — call relays running one static credential shared by every client since 2021, and legacy storage namespaces that accept unauthenticated reads and writes. Each contact is identified, most are persistent, and one of them joins a user's successive accounts on the same device in the operator's own database, whether the user changed identities or not.
+The service-node swarm, measured from the chain's own state on 2026-11-04, two independent sources in exact agreement: 72 operators run 95.5% of the 1,163 active nodes; five hosting providers carry 67.75%; one Hetzner address in Finland hosts 55 nodes; eight providers carry three quarters of the network; 4.3% of the swarm would halve it. Every node stakes exactly the minimum. The machinery is documented separately; the distribution it bought is the finding.
 
 ## Verify
 
 ```
 gpg --import knell-public.asc
-gpg --verify whitepaper2-FINAL-2026-11-03.md.asc
+gpg --verify whitepaper3-FINAL-2026-11-03.md.asc
 ```
 
 Expect: `Good signature from "knell"`, key 133883AB9F6EDE5B9BA6B82E27BEDAF0CE152F25
